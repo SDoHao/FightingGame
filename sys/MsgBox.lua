@@ -40,10 +40,6 @@ local function msgbox_new()
 end 
 
 function MsgBox:new(mod,string,title,x,y,w,h)
-  --[[mod
-  1 ok
-  2 yes_no
-  ]]
   local button_x={}
   local button_y={}
   MsgBox.num=MsgBox.num+1
