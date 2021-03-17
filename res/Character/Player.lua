@@ -232,5 +232,5 @@ end
 function Player:GetPlayerControl()
   return player.control
 end
-s
+
 return Player
