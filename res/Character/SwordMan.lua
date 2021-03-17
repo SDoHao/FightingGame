@@ -231,15 +231,7 @@ function SwordMan:EquipWeapon(itemid)
     self.weapon.atk_effect[2] = sm_Audio.beamatk_02
     self.weapon.atk_effect[3] = sm_Audio.beamatk_03
     self.weapon.jump = sm_Audio.beam_jump
-    self.weapon.run_hit = sm_Audio.beam_hit
-    --[[
-  elseif(WeaponList[weaponid].e_type==4)then
-    self.weapon.atk_effect[1] = sm_Audio.lswatk_01
-    self.weapon.atk_effect[2] = sm_Audio.lswatk_02
-    self.weapon.atk_effect[3] = sm_Audio.lswatk_03
-    self.weapon.jump=sm_Audio.lsword_jump
-    self.weapon.run_hit=sm_Audio.lsw_hit
-    ]]
+    self.weapon.run_hit = sm_Audio.beam_hits
   else
     self.weapon.atk_effect[1] = sm_Audio.lkaatk_01
     self.weapon.atk_effect[2] = sm_Audio.lkaatk_02

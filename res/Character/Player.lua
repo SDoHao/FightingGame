@@ -232,26 +232,5 @@ end
 function Player:GetPlayerControl()
   return player.control
 end
---[[
-function Player:GetInfo()
-  return PlayerInfo
-end
-
-function Player:GetAvatar()
-  return player.avatar
-end
-
-function Player:SetPosition(x,y)
-  player:SetPosition(x,y)
-  Camera:init(x,y)
-end
-
-function Player:GetHitBox()
-  return player.HitBox[player.frame]
-end
-
-function Player:GetFace()
-  return player.face
-end
-]]
+s
 return Player
